@@ -1,0 +1,27 @@
+{
+    "makefile.configureAfterCommand": false,
+    "makefile.configureOnEdit": false,
+    "makefile.loggingLevel": "Debug",
+    "makefile.extensionLog": "makefileToolsOutput/extension.log",
+    "makefile.makeDirectory": "Release",
+    "makefile.extensionOutputFolder": "makefileToolsOutput",
+    "makefile.configurationCachePath": "makefileToolsOutput/configurationCache.log",
+    "makefile.additionalCompilerNames": [
+        "arm-none-eabi-gcc"
+    ],
+    "makefile.clearOutputBeforeBuild": true,
+    "makefile.dryrunSwitches": [
+        "--always-make",
+        "--keep-going",
+        "--print-directory"
+    ],
+    "makefile.configurations": [
+        {
+            "name": "demo",
+            "makeArgs": [
+                "-j8"
+            ]
+        }
+    ],
+    "C_Cpp.loggingLevel": "Debug"
+}
